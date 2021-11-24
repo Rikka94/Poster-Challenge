@@ -1,0 +1,64 @@
+<html>
+    <head>
+        <title>Challenge One Poster</title>
+        <style>
+            *{
+                margin: 0;
+                padding: 0;
+            }
+            div#container{
+                width: 900px;
+                height: 500px;
+                border-width: 2px;
+                border-color: black;
+                border-style: solid;
+                margin: 0 auto;
+                /* text-align: center; */
+                background-image: url("images/demo.jpg");
+                background-size: 100%;
+                position: relative;
+                
+            }
+            div#box1{
+                width: 100px;
+                height: 100px;
+                background-color: red;
+                position: absolute;
+                left: 50px;
+                top: 50px;
+            }
+            div#box2{
+                width: 100px;
+                height: 100px;
+                background-color: blue;
+                position: absolute;
+                left: 180px;
+                top: 345px;
+                z-index: 5;
+            }
+            div#box3{
+                width: 100px;
+                height: 100px;
+                background-color: yellow;
+                position: absolute;
+                left: 100px;
+                top: 300px;
+            }
+
+            h1#title{
+                position: absolute;
+                left: 100px;
+                top: 350px;
+                z-index: 6;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="container">
+            <div id="box1"></div>
+            <div id="box2"></div>
+            <div id="box3"></div>
+            <h1 id="title">Love life</h1>
+        </div>
+    </body>
+</html>

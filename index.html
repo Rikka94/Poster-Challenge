@@ -1,0 +1,133 @@
+<html>
+    <head>
+        <title>Amri Website</title>
+        <style>
+            body,html{
+                margin: 0;
+                padding: 0;
+            }
+            *{
+                margin: 0;
+                padding: 0;
+            }
+            div#container{
+                background-color: aqua;
+                width: 100%;
+                height: 100%;
+                
+            }
+            div#header{
+                width: 100%;
+                height: 100px;
+                background-color: brown;
+
+            }
+            div#headerBar{
+                width: 900px;
+                height: 100px;
+                text-align: center;
+                background-color: rgb(235, 219, 2);
+                margin-right: auto;
+                margin-left: auto;
+                padding-top: 30px;
+                padding-left: 20px;
+                padding-right: 20px;
+                box-sizing: border-box;
+
+            }
+            div#headerBar h1{
+                float: left;
+            }
+            div#headerBar nav{
+                float: right;
+            }
+            div#headerBar ul{
+                list-style-type: none;
+                
+            }
+            div#headerBar ul li{
+                display: inline-block;
+                margin-right: 20px;
+                font-weight: bold;
+
+            }
+            div#banner{
+                width: 100%;
+                height: 600px;
+                background-color: blueviolet;
+            }
+            div#bannerOne{
+                width: 900px;
+                height: inherit;
+                background-color: cornsilk;
+                margin-left: auto;
+                margin-right: auto;
+                box-sizing: border-box;
+                text-align: center;
+                padding-top: 50px;
+                padding-bottom: 50px;
+                
+            }
+            div#content{
+                width: 100%;
+                height: 300px;
+                background-color: lawngreen;
+            }
+            div#contentOne{
+                width: 50%;
+                float: left;
+            }
+            div#contentTwo{
+                float: right;
+
+            }
+            div.item{
+                width: 50%;
+                height: inherit;
+                background-color: magenta;
+                border-width: 2px;
+                border-color: orange;
+                border-style: solid;
+                box-sizing: border-box;
+                text-align: center;
+                line-height: 300px;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div id="container">
+            <div id="header">
+                <div id="headerBar">
+                    <h1>Apple Malaysia</h1>
+                    <nav>
+                        <ul>
+                            <li>Home</li>
+                            <li>About</li>
+                            <li>Work</li>
+                            <li>Contact</li>
+                        </ul>
+                    </nav>
+                </div>
+                <!-- header ends here -->
+            </div>
+            <div id="banner">
+                <div id="bannerOne">
+                    <h1>Holiday For Everyone</h1>
+                    <p>Buy the latest poroduct</p>
+                    
+                </div>
+            </div>
+            <!-- banner ends here -->
+            <div id="content">
+                <div id="contentOne"  class="item">
+                    <h1>RM1900.00</h1>
+                </div>
+                <div id="contentTwo" class="item">
+                    <h1>RM2500.00</h1>
+                </div>
+            </div>
+        </div>
+
+    </body>
+</html>
