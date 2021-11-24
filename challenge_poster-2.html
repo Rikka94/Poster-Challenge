@@ -1,0 +1,260 @@
+<html>
+    <head>
+        <title>Challenge poster 2</title>
+        <style>
+            *{
+                margin: 0;
+                padding: 0;
+            }
+            div#container{
+                width: 1240px;
+                height: 1754px;
+                border-color: black;
+                border-width: 2px;
+                border-style: solid;
+                margin: 0 auto;
+                background-image: url("images/bg-2.png");
+                position: relative;
+                color: white;
+                
+            }
+            div#lines{
+                width: inherit;
+                height: inherit;
+
+            } 
+            div#centerline{
+                width: 10px;
+                height: 1754px;
+                position: absolute;
+                left: 615px;
+                background-color: white;
+
+            }
+            div#vert1{
+                width: 15px;
+                height: 250px;
+                left: 150px;              
+            }
+            div#vert2{
+                width: 15px;
+                height: 350px;
+                left: 700px;
+                bottom: 0px; 
+            }
+            div#horiz1{
+                width: 130px;
+                height: 15px;
+                right: 100px;
+                top: 150px;
+            }
+            div#horiz2{
+                width: 700px;
+                height: 15px;
+                right: 100px;
+                top: 400px;              
+            }
+            div#horiz3{
+                width: 700px;
+                height: 15px;
+                left: 150px;
+                bottom: 600px;              
+            }
+            div#horiz4{
+                width: 65px;
+                height: 15px;
+                left: 100px;
+                bottom: 300px;             
+            }
+            div#horiz5{
+                width: 130px;
+                height: 15px;
+                right: 390px;
+                bottom: 500px;              
+            }
+            div.bars{
+                
+                position: absolute;
+                background-color: white;
+                z-index: 10;
+            }
+            div#date{
+                width: 300px;
+                height: 110px;
+                position: absolute;
+                top: 140px;
+                left: 165px;
+                /* background-color: blue; */
+            }
+            div#date h1{
+                font-size: 30px;
+                position: absolute;
+                left: 120px;
+                top: 10px;
+            }
+            p#NOV{
+                font-size: 40px;              
+                top: 20px;
+                left: 20px;
+                position: absolute;
+            }
+            p#twofour{
+                font-size: 50px;               
+                top: 60px;
+                left: 20px;
+                font-weight: bold;
+                position: absolute;
+            }
+            div#cube{
+                width: 230px;
+                height: 110px;
+                position: absolute;
+                right: 230px;
+                top: 150px;
+                /* background-color: blue; */
+            }
+            div.cubes{
+                width: 30px;
+                height: 30px;
+                background-color: white;
+                position: absolute;
+                
+            }
+            div#cube1{
+                position: absolute;
+
+            }   
+            div#cube2{
+                position: absolute;
+                left: 40px;
+
+            }
+            div#cube3{
+                position: absolute;
+                left: 40px;
+                top: 40px;
+            } 
+            div#cube p{
+                font-size: 30px;
+                position: absolute;
+                left: 100px;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                
+            }
+            div#pictures{
+                width: inherit;
+                height: inherit;
+                position: absolute;
+                top: 0;
+            }
+            img.shoes{
+                position: absolute;
+                width: 570px;
+                height: 330px;
+                right: 155px;
+                top: 395px;
+                z-index: 11;
+            }
+            img.moon{
+                position: absolute;
+                width: 350px;
+                height: 325px;
+                left: 231px;
+                top: 609px;
+                z-index: 11;
+            }
+            img.pine{
+                position: absolute;
+                width: 520px;
+                height: 500px;
+                right: 176px;
+                top: 726px;
+                z-index: 11;
+            }
+            div#midtext{
+                width: inherit;
+                height: inherit;
+            }
+            div#sur p{
+                font-size: 200px;
+                position: absolute;
+                top: 400px;
+                left: 100px;
+                font-family: Arial, Helvetica, sans-serif;
+                font-weight: bolder;
+                letter-spacing: 50px;
+                z-index: 12;
+            }
+            div#real p{
+                font-size: 150px;
+                position: absolute;
+                top: 709px;
+                right: 29px;
+                font-family: Arial, Helvetica, sans-serif;
+                font-weight: bolder;
+                letter-spacing: 50px;
+                z-index: 9;
+            }
+            div#ism p{
+                font-size: 200px;
+                position: absolute;
+                top: 919px;
+                left: 154px;
+                font-family: Arial, Helvetica, sans-serif;
+                font-weight: bolder;
+                letter-spacing: 50px;
+                z-index: 9;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="container">
+            <div id="centerline"></div>
+            <div id="lines">
+                <div id="vertical">
+                    <div id="vert1" class="bars">
+                    </div>
+                    <div id="vert2" class="bars"></div>
+                </div>
+                <div id="horizontal">
+                    <div id="horiz1" class="bars"></div>
+                    <div id="horiz2" class="bars"></div> 
+                    <div id="horiz3" class="bars"></div>
+                    <div id="horiz4" class="bars"></div>
+                    <div id="horiz5" class="bars"></div>
+                </div>
+            </div>
+            <!-- end of lines -->
+            <div id="date">
+                <h1>2021</h1>
+                <p id="NOV">NOV</p>
+                <p id="twofour">24.</p>
+            </div>
+            <div id="cube" >
+                <div id="cube1" class="cubes" ></div>
+                <div id="cube2" class="cubes" ></div>
+                <div id="cube3" class="cubes" ></div>
+                <p>CUBE MUSEUM</p>
+            </div>
+            <div id="pictures">
+                <img src="images/shoes.png" class="shoes" />
+                <img src="images/moon.png" class="moon" />
+                <img src="images/pineapple.png" class="pine"/>
+            </div>
+            <div id="midtext">
+                <div id="sur">
+                    <p>SUR</p>
+                </div>
+                <div id="real">
+                    <p>REAL</p>
+                </div>
+                <div id="ism">
+                    <p>ISM</p>
+                </div>
+            </div>
+            <!-- end of midtext -->
+            
+        </div>
+        <!-- end of container -->
+    </body>
+</html>
