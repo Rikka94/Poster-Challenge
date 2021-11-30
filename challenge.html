@@ -11,7 +11,7 @@
                 width: 800px;
                 height: 1035px;
                 border-width: 2px;
-                border-color: red;
+                /* border-color: red; */
                 border-style: solid;
                 margin: 0 auto;
                 /* text-align: center; */
@@ -143,32 +143,63 @@
             div#textOne{
                 width: 380px;
                 height: 300px;
-                border: 2px solid pink;
+                /* border: 2px solid pink; */
                 position: absolute;
-                left: 0;
-                top: 0;
+                left: 94;
+                top: 90;
+                line-height: 30px;
+                text-align: left;
             }
-            div#textOne h1{
+            p#headline{
                 color: white;
-                font-weight: 10;
+                font-weight: lighter;
                 font-family: sans-serif;
-                font-size: 50px;
+                font-size: 60px;
             }
-            div#textOne p{
-                color: white;
+            p#space{
+                color: rgb(26, 98, 139);
                 font-weight: 400;
                 font-family: sans-serif;
+                margin-top: 10px;
+                letter-spacing: 9px;
+                font-size: 20px;
+                font-weight: bold;
+            }
+            #lorem{
+                color: cadetblue;
+                font-family: sans-serif;
+                font-size: 15px;
+            }
+            div#textTwo{
+                width: 250px;
+                height: 500px;
+                /* border: 2px solid pink; */
+                position: absolute;
+                left: 80px;
+                top: 570px;
+            }
+            #loremTwo{
+                color: grey;
+                font-family: sans-serif;
+                font-size: 12px;
+                margin: 10px 0;
             }
         </style>
     </head>
     <body>
         <div id="container">
             <div id="textOne">
-                <h1>HEADLINE</h1>
+                <p id="headline">HEADLINE</p>
                 <p id="space">SPACE HERE</p>
-                <p>Lorem Ipsum. Pellentesque id neque</p>
+                <p id="lorem">Lorem Ipsum. Pellentesque id neque</p>
             </div>
-            
+            <div id="textTwo">
+                <p id="space">TITLE TEXT</p>
+                <p id="loremTwo">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam magna magna, luctus eu dignissim sed, tristique et odio. Nullam sed aliquam ligula. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Proin ullamcorper, arcu a consequat mattis, augue sapien placerat turpis, quis malesuada nisl eros rutrum elit. Pellentesque maximus et lectus eu aliquet.<p>
+                
+                <br /> <p id="loremTwo">  
+                Phasellus convallis neque ut mi pretium aliquam. Fusce elementum, enim quis rutrum auctor, ipsum lorem elementum erat, et fermentum turpis neque ut velit. Vestibulum vel arcu blandit, fermentum felis nec, porttitor turpis. Curabitur luctus ex nec erat laoreet placerat. Vestibulum eros velit, tincidunt a odio varius, condimentum varius ex.</p>
+            </div>
             <div id="hexOne" class="hexagon"></div>
             <div id="hexTwo" class="hexagontwo"></div>
             <div id="hexThree" class="hexagonthree"></div>
